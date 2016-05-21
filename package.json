@@ -17,9 +17,9 @@
     "test": "test"
   },
   "scripts": {
-    "postinstall": "typings install && cd test && typings install",
-    "build": "grunt build",
-    "test": "grunt pretest && cd test && typings install && tsc -p ."
+    "postinstall": "typings install",
+    "test": "grunt pretest && cd test && typings install && tsc -p .",
+    "build": "grunt build"    
   },
   "keywords": [
     "typings",

@@ -41,6 +41,9 @@ cd es2015
 # Install modules and dependencies
 npm install
 
+# Build typings (concatenate by using <reference> tags)
+npm run build
+
 # Test typings over core-js and MDN samples
 npm test
 ```
