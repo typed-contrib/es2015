@@ -1,0 +1,49 @@
+{
+  "name": "typed-es2015",
+  "version": "0.1.0",
+  "description": "Type definitions for ES2015 specification",
+  "main": "index.js",
+  "author": "typed-contrib",
+  "license": "MIT",
+  "homepage": "https://github.com/typed-contrib/es2015#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typed-contrib/es2015.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typed-contrib/es2015/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "postinstall": "typings install && cd test && typings install",
+    "build": "grunt build",
+    "test": "grunt pretest && cd test && typings install && tsc -p ."
+  },
+  "keywords": [
+    "typings",
+    "definitions",
+    "typescript",
+    "azure",
+    "microsoft",
+    "storage",
+    "table",
+    "queue",
+    "file",
+    "blob",
+    "typed-contrib",
+    "typed",
+    "tsd"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-build-control": "^0.7.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "jit-grunt": "^0.10.0",
+    "time-grunt": "^1.3.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}

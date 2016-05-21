@@ -1,0 +1,15 @@
+# Dependencies
+###################
+typings/
+node_modules/
+
+# Development files
+###################
+test/*.d.ts
+*.js
+!Gruntfile.js
+
+# Build directories
+###################
+dist/
+tmp/
