@@ -8,19 +8,19 @@ Installation can be done using [typings](https://github.com/typings/typings).
 
 From the registry:
 ```bash
-$ typings install es2015 --global --save
+$ typings install env~es2015 --global --save
 ```
 
 From the source:
 ```bash
-$ typings install github:typed-contrib/es2015 --global --save
+$ typings install github:typed-contrib/es2015#0.1.0 --global --save
 ```
 
 ## Feature-by-Feature Installation
 
 From the registry:
 ```bash
-$ typings install es2015-promise es2015-math --global --save
+$ typings install env~es2015-promise env~es2015-math --global --save
 ```
 
 From the source:
