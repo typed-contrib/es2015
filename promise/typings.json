@@ -1,0 +1,6 @@
+{
+  "name": "es2015-promise",
+  "version": "0.1.0",
+  "main": "index.d.ts",
+  "global": true
+}
