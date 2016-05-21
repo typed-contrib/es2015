@@ -41,7 +41,7 @@ cd es2015
 # Install modules and dependencies
 npm install
 
-# Test typings over es2015 samples and tests
+# Test typings over core-js and MDN samples
 npm test
 ```
 
@@ -51,9 +51,9 @@ Some resources to help writing Typescript type definitions:
 
 ## Tests
 
-This type definitions are tested using source `es2015` `samples` and `services` tests.
- * [Samples](https://github.com/Azure/es2015/tree/master/examples/samples)
- * [Services](https://github.com/Azure/es2015/tree/master/test/services)
+This type definitions are tested using source `core-js` and `MDN` `samples`.
+ * [core-js](https://github.com/zloirock/core-js)
+ * [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/)
 
 ## License
 
