@@ -44,12 +44,12 @@ declare class Promise<T> implements Thenable<T> {
 	catch<U>(onRejected?: (error: any) => U | Thenable<U>): Promise<U>;
     
     /** Makes a new empty Promise. */
-    static resolve(): Promise<void>;
+    static resolve(): Promise<any>;
 	/** 
      * Make a new promise from the Thenable. 
      * A Thenable is Promise-like in as far as it has a `then` method. 
      */
-    static resolve<T>(value: T | Thenable<T>): Promise<T>;
+    static resolve<T>(value?: T | Thenable<T>): Promise<T>;
     
     /** Make a Promise that rejects to `err`. For consistency and debugging (eg stack traces), `err` should be an instanceof Error. */
 	static reject(error: any): Promise<any>;
