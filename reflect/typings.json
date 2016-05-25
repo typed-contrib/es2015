@@ -1,5 +1,5 @@
 {
-  "name": "es2015-array",
+  "name": "es2015-reflect",
   "version": "0.1.1",
   "main": "index.d.ts",
   "global": true
