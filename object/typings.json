@@ -1,6 +1,6 @@
 {
   "name": "es2015-object",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "index.d.ts",
   "global": true
 }
